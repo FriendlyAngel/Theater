@@ -1,0 +1,11 @@
+
+theater_app    | 2025-12-15T09:34:12.427Z ERROR 1 --- [nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.theater_system.model.User.getId()" because "user" is null] with root cause
+theater_app    | 
+theater_app    | java.lang.NullPointerException: Cannot invoke "com.theater_system.model.User.getId()" because "user" is null
+theater_app    |        at com.theater_system.controller.site.UserPlayController.lambda$myPlays$0(UserPlayController.java:26) ~[!/:0.0.1-SNAPSHOT]
+theater_app    |        at java.base/java.util.stream.ReferencePipeline$2$1.accept(Unknown Source) ~[na:na]
+theater_app    |        at java.base/java.uti
+
+
+---------
+
